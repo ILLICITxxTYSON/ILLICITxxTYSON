@@ -1,0 +1,54 @@
+body {
+    background-image: url("/Html/pexels-jess-bailey-designs-743986.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+        
+}
+#para_1{
+    background-color: rgb(0, 0, 0);    /*accessing through id */
+    margin:60px /*top margin */ 150px /* right margin */ 80px /* bottom margin */ 90px; /*left margin */
+    border-style: solid;
+    border-color:yellowgreen;
+    border-width: 5px;
+    padding: 30px 30px 30px 30px;
+    border-radius: 25px;
+    outline-style: groove;
+    outline-offset: 20px;
+    height: 500px;
+    width: 700px;
+    text-align: center;
+    text-transform: capitalize;
+    text-indent: 10px;
+    letter-spacing: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:bolder;
+}
+*{
+    color: rgb(0, 0, 0);           /* Used for accessing whole page. */
+}
+.style_1{
+    color: blueviolet;                /*accesing through class */
+}
+#link{
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+#home{
+    border-color: brown;
+}
+table, th, td {
+    border: 2px solid;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    height: 40px;
+}
+td:hover{
+    padding-left: 20px;
+    background-color: blueviolet;
+    
+}
+
